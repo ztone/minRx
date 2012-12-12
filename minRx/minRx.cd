@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="minRx.Interactive.Linq.FEnumerable">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIgAiAAAAAAAAAAAAAIAYAAAAAEAAAAAAAIAUAAAAAQ=</HashCode>
+      <FileName>Interactive.Linq\FEnumerable.Aggregates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="minRx.Reactive.Linq.FObservable">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAigiAAYCAIACEAAAAJARAQBCAEGAEAAAAIAUEABAAQ=</HashCode>
+      <FileName>Reactive.Linq\FObservable.Aggregates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="minRx.Reactive.Linq.Maybe&lt;T&gt;">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="minRx.Reactive.Linq.Maybe&lt;T&gt;.None" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Reactive.Linq\Maybe.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="minRx.Reactive.Linq.Maybe&lt;T&gt;.Some" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Reactive.Linq\Maybe.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="minRx.Reactive.Linq.Maybe&lt;T&gt;.Ex" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Reactive.Linq\Maybe.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAAABAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Reactive.Linq\Maybe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="minRx.Reactive.Linq.FObserver">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Reactive.Linq\FObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="minRx.Reactive.Concurrency.Lock">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Reactive.Concurrency\Lock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="minRx.Reactive.Concurrency.Clock">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAAAAAQAA=</HashCode>
+      <FileName>Reactive.Concurrency\Clock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,16 @@
+# Ignore Assemblies
+bin/
+obj/
+_ReSharper*/
+PrecompiledWeb/
+*.dll
+*.pdb
+*.exe
+
+# Ignore Temporary Project Files
+*.suo
+*sln.cache
+*.user
+*.resharper
+
+staging
